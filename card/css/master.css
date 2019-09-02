@@ -1,0 +1,118 @@
+body {
+  font-family: Segoe UI, sans-serif;
+  background: #F5F7FA;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.card-wrapper {
+  margin: 40px auto;
+  width: 570px;
+  color: #4B606C;
+  background-color: #fff;
+  background-clip: border-box;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+  border-radius: 10px;
+  transition: 0.25s;
+}
+
+.card-wrapper:hover {
+  box-shadow: 0 .75rem .75rem 0.0375rem rgba(0,0,0,.075) !important;
+  cursor: pointer;
+}
+
+
+
+.card-top {
+  padding: 20px;
+  display: flex;
+
+}
+
+.card-wrapper h3 {
+  color: #122836;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+}
+
+
+.card-desc p {
+  margin-top: 12px;
+
+}
+
+.company-logo {
+  margin-right: 20px;
+}
+
+.company-logo img {
+  border-radius: 50%;
+  width: 60px;
+}
+
+.card-price p {
+  display: inline-block;
+  margin: 0;
+  margin-right: 10px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.card-bottom {
+  background: #F8F9FA;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px 0 100px;;
+  border-radius: 0 0 10px 10px;
+  font-size: 14px;
+}
+
+
+.card-pills p {
+  font-weight: 600;
+  line-height: 20px;
+  margin-right: 7px;
+}
+
+.seo {
+  color: #4F40D0;
+  background: #D9D6F5;
+  border-radius: 20px;
+  padding: 2px 12px;
+  display: inline-block;
+}
+
+.ppc {
+  color: #AC8C20;
+  background: #F7EFD5;
+  border-radius: 20px;
+  padding: 2px 12px;
+  display: inline-block;
+}
+
+.card-website {
+  display: inline-block;
+}
+
+.card-website a {
+  text-decoration: none;
+  color: #4B606C;
+}
+
+.card-website a:hover {
+  color: hsl(219, 55%, 50%);
+  text-decoration: underline;
+}
+
+.f14 {
+  font-size:13px;
+  display: inline-block;
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin-left: 660px;
+}
