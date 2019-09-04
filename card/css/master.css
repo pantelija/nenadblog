@@ -39,6 +39,10 @@ nav {
   color: #4B606C;
 }
 
+.nav-links a:hover {
+  color: hsl(219, 55%, 50%);
+}
+
 .logo img {
   height: 36px;
   display: block;
