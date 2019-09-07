@@ -26,7 +26,7 @@ body {
 
 nav {
   margin: 0 auto;
-  width: 570px;
+  width: 900px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -225,9 +225,18 @@ span {
 }
 
 
+.speed {
+  color: #6d2a12;
+  background: #ceb8b0;
+}
+
+
+
 .card-website {
   display: inline-block;
 }
+
+
 
 .card-website a {
   text-decoration: none;
