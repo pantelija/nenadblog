@@ -10,7 +10,6 @@ body {
   font-size: 16px;
 }
 
-
 .nav-container {
   height: 60px;
   background: white;
@@ -80,6 +79,7 @@ h1 {
   background-clip: border-box;
   box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
   border-radius: 10px;
+  border: 1px solid #d0d6e0;
   transition: 0.25s;
 }
 
@@ -89,7 +89,7 @@ h1 {
 
 .card-wrapper:hover {
   box-shadow: 0 .75rem .75rem 0.0375rem rgba(0,0,0,.075) !important;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 
@@ -148,17 +148,14 @@ span {
 
 
 .card-pills p {
-  font-weight: 600;
+  /* font-weight: 600; */
   line-height: 20px;
   margin-right: 7px;
 }
 
 
-
-
-
 .filter-pills p {
-  font-weight: 600;
+  /* font-weight: 600; */
   margin-top:7px;
   margin-bottom:7px;
   margin-right: 7px;
@@ -169,7 +166,7 @@ span {
   border-radius: 20px;
   padding: 2px 12px;
   display: inline-block;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .seo {
